@@ -1,0 +1,228 @@
+.main-container{
+	padding:15px;
+	padding-bottom:0;
+}
+.main-container-body{
+	padding:0;
+	min-height:100%;
+	background-color:#fafafa;
+}
+.u_slider{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	width:200px;
+	padding:15px;
+	background-color:#f5f5f5;
+}
+.u_nav>li{
+	margin-bottom:8px;
+}
+.u_nav>li>a{
+	padding:10px;
+	color:#444;
+	border:1px solid #f0f0f0;
+	background-color:#fff;
+}
+.u_nav>li.active>a,
+.u_nav>li>a:hover,
+.u_nav>li>a:focus{
+	background-color:#f0f0f0;
+	border-color:#ddd;
+}
+.u_nav .fa-pencil{
+	position:absolute;
+	right:0;
+	top:0;
+	bottom:0;
+	padding-top:14px;
+	width:30px;
+	cursor:pointer;
+	color:#aaa;
+	text-align:center;
+	display:none;
+}
+.u_nav>li:hover .fa-pencil,
+.u_nav>li:focus .fa-pencil{
+	display:inline-block;
+}
+.u_nav>li.add_depart_btn>a{
+	text-align:center;
+	border-style:dashed;
+	border-color:#bbb;
+	background-color:transparent;
+}
+.depart_control{
+	padding:15px 10px;
+	border:1px dashed #bbb;
+}
+.depart_control>.form-control{
+	margin-bottom:15px;
+}
+.depart_control>.btn{
+	color:#444;
+}
+.depart_control>.btn-blue{
+	padding:5px 25px;
+	color:#fff;
+}
+.user_body{
+	margin-left:200px;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:15px
+}
+.user_list{}
+.user_list:before,
+.user_list:after{
+	content:'';
+	display:table;
+}
+.user_list:after{
+	clear:both;
+}
+.col{
+	float:left;
+	width:25%;
+	padding-left:10px;
+	margin-bottom:15px;
+}
+.col.add_user_col{
+	float:right;
+	width:50%;
+}
+@media (max-width:1140px){
+	.col{
+		width:50%;
+	}
+	.col.add_user_col{
+		width:100%;
+	}
+}
+.add_user_block{
+	height:165px;
+	padding:15px;
+	border:1px solid #f0f0f0;
+	background-color:#fff;
+}
+.user_block{
+	position:relative;
+	height:165px;
+	border:1px solid #f0f0f0;
+	background-color:#fff;
+	-webkit-transition:all 0.1s ease-out;
+	   -moz-transition:all 0.1s ease-out;
+		    transition:all 0.1s ease-out;
+}
+.user_block:hover,
+.user_block:focus{
+	-webkit-box-shadow:0 3px 3px #dedede;
+	   -moz-box-shadow:0 3px 3px #dedede;
+		    box-shadow:0 3px 3px #dedede;
+	/*-webkit-transform:translate(0,-2px);
+	   -moz-transform:translate(0,-2px);
+		    transform:translate(0,-2px);*/
+}
+.add_user_block>.form-control{
+	margin-bottom:15px;
+}
+.add_user_block>.nav{
+	width:100%;
+	margin-bottom:15px;
+}
+.add_user_block>.nav>li{
+	display:table-cell;
+	width:1%;
+}
+.add_user_block>.nav>li>a{
+	padding:5px 0;
+	color:#444;
+	text-align:center;
+	margin-left:5px;
+}
+.add_user_block>.nav>li.active>a{
+	background-color:#eee;
+}
+.add_user_block .user_icon{
+	top:2px;
+}
+.user_handle{
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:right;
+	line-height:30px;
+}
+.user_handle>i{
+	margin-left:10px;
+	color:#ccc;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-webkit-transition:all 0.5s ease-out;
+	   -moz-transition:all 0.5s ease-out;
+		    transition:all 0.5s ease-out;
+}
+.user_block:hover .user_handle>i,
+.user_block:focus .user_handle>i{
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+.user_head{
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align:center;
+}
+.user_head>img{
+	display:inline-block;
+}
+.user_name{
+	text-align:center;
+	font-size:16px;
+}
+.user_status{
+	text-align:center;
+}
+.user_inactive{
+	background-color:#ececec;
+}
+
+.user_icon{
+	position:relative;
+	height:17px;
+	width:17px;
+	margin-right:5px;
+	display:inline-block;
+	background-repeat:no-repeat;
+}
+.user_icon.admin_user{
+	background-image:url(/resource/img/admin/admin_user_icon.png);
+}
+.user_icon.senior_user{
+	background-image:url(/resource/img/admin/senior_user_icon.png);
+}
+.user_icon.normal_user{
+	background-image:url(/resource/img/admin/normal_user_icon.png);
+}
+.user_mark{
+	position:absolute;
+	top:-1px;
+	left:5px;
+	height:30px;
+	width:25px;
+	display:inline-block;
+	background-repeat:no-repeat;
+}
+.user_mark.admin_user{
+	background-image:url(/resource/img/admin/admin_user_mark.png);
+}
+.user_mark.senior_user{
+	background-image:url(/resource/img/admin/senior_user_mark.png);
+}
+.user_mark.normal_user{
+	background-image:url(/resource/img/admin/normal_user_mark.png);
+}
+
+
+

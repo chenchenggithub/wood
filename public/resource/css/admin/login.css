@@ -1,0 +1,81 @@
+.login_bg{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.login_bg>img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.login_form{
+	position:absolute;
+	right:11%;
+	top:15%;
+	z-index:99;	
+	width:412px;
+	height:440px;
+	padding:50px;
+	background:#fff;
+	opacity:0.88;
+	filter:Alpha(opacity=88);
+}
+.form-signin-heading{
+	margin-top:0;
+	margin-bottom:40px;
+}
+.input-group{padding:10px 0;}
+.input-group-addon{
+	padding:6px 2px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border:none;
+	background-color:transparent;
+	color:#abadae;
+	font-size:16px;
+}
+.form-control{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	border:none;
+	font-size:16px;
+}
+.form-control:focus{
+	box-shadow:none;
+}
+.input-group:first-child{border-bottom:1px solid #dfe0e0;}
+.login-input{padding:0 12px;border:1px solid #dfe0e0;}
+.pass_icon{
+	position:relative;
+	display:inline-block;
+	height:16px;
+	width:16px;
+	line-height:1;
+	background:url(../../img/admin/pass_icon.png) no-repeat;
+}
+.login-handle{
+	padding:25px 0;
+	font-size:13px;
+	line-height:1.7;
+}
+.login-handle:before,
+.login-handle:after{
+	content:'';
+	display:table;
+	line-height:0;
+}
+.login-handle:after{clear:both;}
+.login-handle>.checkbox{}
+.login-handle>.right{
+	margin-top:10px;
+	margin-bottom:10px;
+}
